@@ -16,7 +16,7 @@ int main () {
   scanf("%d %d %d" , &p , &n , &r);  // user input from keyboard
 
 
-  float si = (p * n * r) / 1000; // calculate
+  float si = (p * n * r) / 100; // calculate
 
   printf("%f " , si);
 
