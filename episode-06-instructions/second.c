@@ -1,57 +1,47 @@
-// Airthmatic instructions
+// =========== Airthmatic operations =======
 
-// BODMAS 
+// BODMAS  ( + , - , * and /)
+// first use the brackets
+// then going for the divison multiply and additon and sub.
 
-// BRACKET OF DIVISION MULTIPLEY AND ADDISSION SUB (-)
+// 4 + 6*5 + 34
+// 4 + 30 + 34
+// 68
 
-// 3 + 4* 5 + 9 - 7
-// 3 + 20 + 9 - 7
-// 23 + 9 - 7
-// 25 answer
-
-// Operator
-/*
- +
- -
- *
- /
- %
- >> 
- << 
- |
- &
-*/
-
-
-// ()
-// !
-// * and /
-// + and -
+// opeatores in c 
+// + , - , * , / , % , ^ , & , | , ! 
 
 # include<stdio.h>
 
 int main () {
 
-  int cal = 3 + 4* 5 + 9 - 7;
+  int ans = 3 + 5/5  + 5 - 4 ;
+  // 3 + 1 + 5 - 4
+  // 5
+  printf("%d \n" , ans);
 
-  // 3 + 20 + 9 - 7
-  // 25
-  printf("%d " , cal);
+  printf("%d " , 1 + 2); //3
+  printf("%d " , 1 * 2); //2
+  printf("%d " , 1 - 2); // -1
+  printf("%d " , 1 / 2); // 0
+  printf("%d " , 1 % 2); // 1
+  printf("%d " , 2 / 1); // 2
+ // 3 2 -1 0 0 2
+  // 1/2 => 0.5
 
-  printf("%f " , 3/4);
-  // 3/4 => 0.75 => 0
+  // 14/3 => 2
+  printf("%d " , 14 % 3); 
 
-  int ans = 3/4*5 - 9*5 + 4* 5/4 + 9 - 7;
-  // 0*5 - 9*5 + 4* 5/4 + 9 - 7
-  // 0 - 9*5 + 4* 5/4 + 9 - 7
-  // 0 - 45 + 4* 5/4 + 9 - 7
-  // -45 + 20/4 + 2
-  // -45 + 5 + 2
-  // -38
+  int cal = 3 + 4 * 5 / 3 - 8 + 9 * 5/5 - 7 % 3;
+  // 3 + 20/3 - 8 + 9 * 5/5 - 7 % 3
+  // 3 + 6 - 8 + 45/5 - 1
+  // 1 + 9 -1
+  // 9
+  printf("\n%d " , cal);
 
-  printf("%d " , ans);
+  
+  
+
   return 0;
 }
-
-
 

@@ -1,25 +1,25 @@
 # include <stdio.h>
 # include <stdbool.h>
-
 int main () {
 
-  int a = 3;
-  float b = 4.5;
+  int a = 1;
+  float b = 1.1;
   double c = 3;
-  bool d  = true ;
-  int score = a * b + c /d ;
+  bool d = true;
+  float score = a + b * c +  d ;
 
-  // 3 * 4.5 + 3 * 1
-  // 13.5 + 3
-  // 16.5
+  // 1 + 1.1*3 + true
+  // 4.3 + true
 
-  // 16
+  // result is 5 
 
-  printf("%d " , score);
-
-  // 3 * true 
   // true -> 1
   // false -> 0
 
+  // 4.3 + 1
+  // 5.3
+  // (int ) 5.3 => 5
+
+  printf("%f " , score);
   return 0;
 }
